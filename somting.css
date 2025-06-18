@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Aubrey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background-color: black;
+  margin: 30px;
+}
+.header {
+  font-family: "Aubrey", system-ui;
+  font-size: 48px;
+  color: #fcfcfc;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 90px;
+}
+.menu {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #fcfcfc;
+  text-transform: capitalize;
+
+  display: flex;
+  gap: 60px;
+  margin: 0;
+}
+.searchbar {
+  width: 233px;
+  height: 22px;
+  border-radius: 5px;
+  background-color: #302d2d;
+
+  color: #e5e5e5;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+
+  align-content: center;
+  padding: 10px;
+  padding-top: 10px;
+  display: flex;
+  gap: 10px;
+  margin: 0%;
+}
+.glass {
+  width: 19px;
+  height: 19px;
+}
+.signup {
+  width: 123px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: #bd00ff;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #fcfcfc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signin {
+  width: 123px;
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid #bd00ff;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #fcfcfc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.account {
+  display: flex;
+  gap: 20px;
+}
+.highlights {
+  width: 179px;
+  height: 42px;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  color: #fcfcfc;
+
+  display: flex;
+  margin-left: 77px;
+  margin-bottom: 20px;
+}
+.tomanime {
+  width: 608px;
+  height: 717px;
+  border-radius: 20px;
+  
+
+  background-image: url(https://m.media-amazon.com/images/M/MV5BZjUzM2U3YjctMDg5My00NTE3LWE5ZGUtOTRkYWJlM2YyOTk2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.gradient {
+  background-image: linear-gradient(rgba(7, 7, 7, 0), rgb(7, 7, 7, 1));
+  background-position: bottom;
+  width: inherit;
+  height: inherit;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  
+  color: #fcfcfc;
+  justify-content: center;
+  align-items: flex-end;
+}
+.highlightedanime{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+
+}
+.anime1{
+    width: 365px;
+    height: 368px;
+    border-radius: 20px;
+
+    background-image: url(https://m.media-amazon.com/images/M/MV5BOWNmY2IzOGItMmQyNy00ZTM0LThiNjItODM3YzdkYjRlNWU1XkEyXkFqcGc@._V1_.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+
+}
+.anime2{
+    width: 365px;
+    height: 330px;
+    border-radius: 20px;
+
+    background-image: url(https://m.media-amazon.com/images/M/MV5BYmRiMGEzMzAtNmEzOC00ODBjLThkZDUtMTE4NmFlN2JjZTE3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+}
+.anime3{
+    width: 223px;
+    height: 243px;
+    border-radius: 20px;
+
+    background-image: url(https://m.media-amazon.com/images/I/81ou26769YL.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+}
+.anime4{
+    width: 223px;
+    height: 455px;
+    border-radius: 20px;
+
+    background-image: url(https://m.media-amazon.com/images/S/pv-target-images/f6f1f7de36eea39f7a1757331df1b7f79f5874c11e6cca3e9aa066efdfe0aed1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+}
+.ehniihoyr{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.suuliinhoyr{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.newepisode{
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    color: #fcfcfc;
+    
+    margin-left: 77px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.column1anime1{
+    width: 629px;
+    height: 419px;
+    border-radius: 20px;
+
+    background-image: url(./column1anime1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.minitext{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #C4C4C4;
+}
+.animner{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+.column1anime2{
+    width: 629px;
+    height: 419px;
+    border-radius: 20px;
+
+    background-image: url(./column1anime2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.column1anime3{
+    width: 629px;
+    height: 419px;
+    border-radius: 20px;
+
+    background-image: url(./column1anime3.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.column1anime4{
+    width: 629px;
+    height: 419px;
+    border-radius: 20px;
+
+    background-image: url(./column1anime4.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.column2anime1{
+    width: 629px;
+    height: 419px;
+    border-radius: 20px;
+
+    background-image: url(./column2anime1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.column2anime2{
+    width: 629px;
+    height: 419px;
+    border-radius: 20px;
+
+    background-image: url(./column2anime2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.column2anime3{
+    width: 629px;
+    height: 419px;
+    border-radius: 20px;
+
+    background-image: url(./column2anime3.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.column2anime4{
+    width: 629px;
+    height: 419px;
+    border-radius: 20px;
+
+    background-image: url(./column2anime4.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.animecolumn{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.animecolumn2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.mother{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.hd{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #fcfcfc;
+
+    width: 88px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #bd00ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.legend{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #fcfcfc;
+
+    width: 193px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #bd00ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.viewmore{
+    width: 264px;
+    height: 72px;
+    margin-top: 80px;
+    font-size: 36px;
+    color: #fcfcfc;
+
+    border: 3px solid #bd00ff;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.viewcenter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.ymnuud{
+  width: 1440px;
+  height: 264px;
+  padding: 30px;
+  
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: rgba(48, 45, 45, 0.17);
+
+    font-family: "Aubrey", system-ui;
+    font-size: 48px;
+    color: #fcfcfc;
+    text-transform: capitalize;
+    display: flex;
+}
+.guy{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fayah{
+  margin-left: 50px;
+  height: 45.5px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.centralizer{
+  display: flex;
+  justify-content: center;
+}
+.minitext2{
+  font-family: "Aubrey", system-ui;
+  font-size: 18px;
+  color: #C4C4C4;
+  margin-left: 60px;
+}
+.minitext3{
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #fcfcfc;
+  margin-left: 40px;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+.minitext4{
+  font-family: "Aubrey", system-ui;
+  font-size: 12px;
+  color: #fcfcfc;
+  background-color:  rgba(48, 45, 45, 0.17);
+  width: 1500px;
+}
+.endingmenu{
+  margin-top: 30px;
+  width: 378px;
+  height: 97px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #fcfcfc;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 40px;
+
+}
+.socials{
+  margin-top: 30px;
+  width: 230px;
+  height: 149.75px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  color: #fcfcfc;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.rower{
+  width: 1440px;
+  height: 264px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.centrelezer{
+  display: flex;
+  justify-content: center;
+}
